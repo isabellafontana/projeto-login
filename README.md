@@ -34,7 +34,48 @@ Esse projeto consiste na construção de uma página de login, para você se cad
 * box-shadow - ultilizado para escolher a cor da borda
 * text-align - ultilizado para centralizar o texto
 
-
-
-## Rêferências
-[Alura](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
+## Estilização
+ 
+* O projeto foi estilizado ultilizando o arquivo login.css. Nesse arquivo, constam configurações de estilo apresentadas a seguir:
+ 
+```
+body{
+    background-color: rgb(238, 116, 167);
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+ 
+form{
+    background-color: rgb(245, 147, 193);
+    padding: 30px;
+    padding-top: 0;
+    border-radius: 20px;
+    color: rgb(219, 5, 148);
+   box-shadow: 0 0 10px black;
+}
+ 
+ 
+container{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 100%;
+    height: 100%;
+}
+```
+## Tecnologias
+ 
+* HTML5
+* CSS3
+* GIT
+* Github
+* READE
+ 
+## Referências
+[Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
+ 
+## Autor(a)
+O projeto foi desenvolvido por:
+ 
+* Isabella Fontana
